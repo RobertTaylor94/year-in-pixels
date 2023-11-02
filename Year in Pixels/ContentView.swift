@@ -14,11 +14,15 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            YearGrid()
             ZStack{
                 FloatingButton(icon: "plus")
             }
         }
     }
+    
+    
+    
 
     private func addItem() {
         withAnimation {
