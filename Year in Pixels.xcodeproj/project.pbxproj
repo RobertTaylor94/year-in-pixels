@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0311B8C32AF41B230067DB90 /* DayCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311B8C22AF41B220067DB90 /* DayCube.swift */; };
+		0311B8C52AF41DA50067DB90 /* YearGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311B8C42AF41DA50067DB90 /* YearGrid.swift */; };
 		03E683C72AF189CF00EA2D9B /* Year_in_PixelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E683C62AF189CF00EA2D9B /* Year_in_PixelsApp.swift */; };
 		03E683C92AF189CF00EA2D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E683C82AF189CF00EA2D9B /* ContentView.swift */; };
 		03E683CB2AF189CF00EA2D9B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E683CA2AF189CF00EA2D9B /* Item.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0311B8C22AF41B220067DB90 /* DayCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCube.swift; sourceTree = "<group>"; };
+		0311B8C42AF41DA50067DB90 /* YearGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearGrid.swift; sourceTree = "<group>"; };
 		03E683C32AF189CF00EA2D9B /* Year in Pixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Year in Pixels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E683C62AF189CF00EA2D9B /* Year_in_PixelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Year_in_PixelsApp.swift; sourceTree = "<group>"; };
 		03E683C82AF189CF00EA2D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			children = (
 				03E683C62AF189CF00EA2D9B /* Year_in_PixelsApp.swift */,
 				03E683C82AF189CF00EA2D9B /* ContentView.swift */,
+				0311B8C42AF41DA50067DB90 /* YearGrid.swift */,
+				0311B8C22AF41B220067DB90 /* DayCube.swift */,
 				03E683D62AF19D8500EA2D9B /* FloatingButton.swift */,
 				03E683D82AF19F5D00EA2D9B /* AddDay.swift */,
 				03E683CA2AF189CF00EA2D9B /* Item.swift */,
@@ -147,10 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E683C92AF189CF00EA2D9B /* ContentView.swift in Sources */,
+				0311B8C52AF41DA50067DB90 /* YearGrid.swift in Sources */,
 				03E683CB2AF189CF00EA2D9B /* Item.swift in Sources */,
 				03E683D92AF19F5D00EA2D9B /* AddDay.swift in Sources */,
 				03E683C72AF189CF00EA2D9B /* Year_in_PixelsApp.swift in Sources */,
 				03E683D72AF19D8500EA2D9B /* FloatingButton.swift in Sources */,
+				0311B8C32AF41B230067DB90 /* DayCube.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
