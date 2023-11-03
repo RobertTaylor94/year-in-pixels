@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct FloatingButton: View {
-    let icon: String
+//    let icon: String
     
     @State var isPresented: Bool = false
     
@@ -21,7 +21,7 @@ struct FloatingButton: View {
                 Button(action: {
                     isPresented.toggle()
                 }){
-                    Image(systemName: icon)
+                    Image(systemName: "plus")
                         .font(.system(size: 25))
                         .foregroundColor(.white)
                 }
@@ -44,5 +44,5 @@ struct FloatingButton: View {
 }
 
 #Preview {
-    FloatingButton(icon: "plus", isPresented: true)
+    FloatingButton(isPresented: true)
 }
