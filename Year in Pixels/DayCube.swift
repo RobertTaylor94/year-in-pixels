@@ -13,7 +13,7 @@ struct DayCube: View {
         @State var fillColor = Color.white
         
         Rectangle()
-            .frame(width: 20.0, height: 20.0)
+            .frame(minWidth: 10, maxWidth: 20, minHeight: 10, maxHeight: 20)
             .foregroundColor(fillColor)
             .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
     }
