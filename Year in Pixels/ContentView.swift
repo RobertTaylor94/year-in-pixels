@@ -14,10 +14,22 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            YearGrid()
-            ZStack{
-                FloatingButton(icon: "plus")
+            HStack {
+                Button(action: {}) {
+                    Image(systemName: "arrowshape.left.circle")
+                        .font(.system(size: 40))
+                }
+                
+                YearGrid()
+                
+                Button(action: {}) {
+                    Image(systemName: "arrowshape.right.circle")
+                        .font(.system(size: 40))
+                }
             }
+            FloatingButton()
+                .frame(height: 80)
+                .padding(.bottom, 5.0)
         }
     }
     
